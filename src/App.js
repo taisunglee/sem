@@ -1,14 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Header from './components/Header';
+
 // 깃 저장소 
-//  https://github.com/taisunglee/sem.git
+// git push --set-upstream origin master
+
 function App() { 
   return (
     <div className="App">
-      <header className="App-header">
-        안녕하세요.
-      </header>
+      <Header />
     </div>
   );
 }
